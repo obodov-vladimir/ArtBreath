@@ -1,0 +1,143 @@
+/*==========  Desktop First Method  ==========*/
+
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (max-width: 1200px) {}
+
+/* Medium Devices, Desktops */
+
+@media only screen and (max-width: 1050px) {
+  .base-header .container .a-wrap, .base-header .container .logo-wrap {
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+  .contacts-main .container {
+    width: 100%;
+  }
+  .contacts-main .container .col-sm-5 h2 {
+    font-size: 25px;
+  }
+  .contacts-main .container .col-sm-5 .person-descr .person-info h3 {
+    font-size: 14px;
+  }
+  .contacts-main .container .col-sm-5 .person-descr .person-info p {
+    font-size: 14px;
+  }
+  .contacts-main .container .col-sm-5 .person-descr .person-info span {
+    font-size: 15px;
+  }
+}
+
+/* Small Devices, Tablets */
+
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (max-width: 767px) {
+  .contacts-main .container{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .contacts-main .container .col-sm-5 .person-descr {
+    display: inline-block;
+  }
+  .contacts-main .container .col-sm-5 .person-descr .person-info {
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .contacts-main .container .col-sm-5 h2 {
+    font-size: 35px;
+  }
+  .contacts-main .container .col-sm-5 .person-descr .person-info p {
+    font-size: 22px;
+    margin-bottom: 15px;
+    margin-top: 0;
+  }
+  .contacts-main .container .col-sm-5 .person-descr .person-info span {
+    font-size: 30px;
+  }
+  .contacts-main .container .row .col-sm-5{
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  .contacts-main .container .row .col-sm-7{
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  .contacts-main .container .col-sm-5 .person-descr .person-info h3 {
+    font-size: 25px;
+    margin-bottom: 5px;
+  }
+}
+@media only screen and (max-width: 610px) {
+  .contacts-main .container .col-sm-5 .person-descr .person-img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+  .toggle_mnu{
+    display: block;
+  }
+  .base-header .container .a-wrap {
+    display: none;
+  }
+  .base-header .container nav ul:nth-child(1) {
+    display: block;
+    float: left;
+    padding-left: 20px;
+}
+  .base-header .container nav ul:nth-child(1) li:nth-child(1) {
+    display: block;
+    float: left;
+    padding-left: 20px;
+    margin: 0 auto;
+  }
+  .contacts-main {
+    margin-top: 0;
+  }
+  .contacts-main .container .col-sm-5 h2 {
+    font-size: 25px;
+  }
+  .contacts-main .container .col-sm-5 .person-descr .person-info p {
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+  .contacts-main .container .col-sm-5 .person-descr .person-info span {
+    font-size: 25px;
+  }
+
+
+}
+
+/* Custom, iPhone Retina */
+
+@media only screen and (max-width: 410px) {
+  .contacts-main .container .col-sm-5 h2 {
+    font-size: 20px;
+  }
+
+}
+
+/*==========  Mobile First Method  ==========*/
+
+
+/* Custom, iPhone Retina */
+
+@media only screen and (min-width: 320px) {}
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (min-width: 480px) {}
+
+/* Small Devices, Tablets */
+
+@media only screen and (min-width: 768px) {}
+
+/* Medium Devices, Desktops */
+
+@media only screen and (min-width: 992px) {}
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (min-width: 1200px) {}
