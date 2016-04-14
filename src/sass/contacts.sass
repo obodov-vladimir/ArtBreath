@@ -1,0 +1,109 @@
+@import "bourbon/bourbon"
+@import "base.sass"
+body
+
+.contacts-main
+	
+	//margin-bottom: 0	
+	.container
+		.col-sm-7,
+		.col-sm-5
+			color: #ccc
+			padding: 5px
+			.cont-descr
+				padding-bottom: 20px
+				background-color: rgba(0,0,0,.55)
+		.col-sm-5
+			padding-right: 20px
+		.col-sm-7
+			padding-left: 20px
+
+		input,
+		textarea
+			display: block
+			width: 85%
+			margin: 15px auto
+			background-color: transparent
+			border: 1px solid #808080
+			line-height: 2
+			font-size: 20px
+			padding-left: 5px
+			resize: none
+		h2
+			display: block
+			width: 85%
+			margin: 15px auto
+			background-color: transparent
+			font-size: 32px
+			font-weight: normal
+		.cont-descr
+			margin-bottom: 20px
+		.col-sm-5
+			text-align: center
+			position: relative
+			h2
+				font-size: 31px
+			.person-descr
+				position: relative
+				width: 100%
+				height: 250px
+				padding: 10px 5%
+
+				.person-img
+					float: left
+					height: 100%
+
+					margin-right: 5px
+					img
+						width: 120px
+				.person-info
+					margin-top: 40px
+					h4
+
+					p
+						font-size: 17px
+					span
+						display: block
+						margin: 10px
+						font-size: 20px
+						font-weight: bold
+input.btn
+	
+	&:hover
+		color: $active-color
+.col-sm-5
+	.row
+		position: relative
+	.social-wrap
+		h2
+			margin-top: 0
+			color: #ccc
+			font-size: 30px
+		ul,
+		li
+			margin: 0
+			padding: 0
+			list-style-type: none
+			display: inline-block
+		ul
+			width: 100%
+		li
+			width: 50px
+			height: 50px
+			margin: 0 20px
+			&:hover
+				cursor:pointer
+			.a-wrap
+				background-size: cover
+				width: 50px
+				height: 50px
+				&:hover
+					cursor:pointer
+
+			&:nth-child(1)
+				.a-wrap
+					background-image: url("../img/logo-vk.png")
+
+			&:nth-child(2)
+				.a-wrap
+					background-image: url("../img/facebook-logo.png")

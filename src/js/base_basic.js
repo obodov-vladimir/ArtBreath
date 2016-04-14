@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	function heightDetect() {
-		$("body, html,.background,.dark-wrap").css("height", $(document).height());
+		$("").css("height", $(document).height());
 	};
 	heightDetect();
 	$(window).resize(function(){

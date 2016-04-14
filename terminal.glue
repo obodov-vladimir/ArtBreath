@@ -1,0 +1,42 @@
+█ [ /home/obodov-vladimir/WebDev/HTML/ArtBreath ] gulp watch
+[12:26:01] Using gulpfile ~/WebDev/HTML/ArtBreath/gulpfile.js
+[12:26:01] Starting 'browser-sync'...
+[12:26:01] Finished 'browser-sync' after 46 ms
+[12:26:01] Starting 'sass'...
+[12:26:01] Starting 'scripts'...
+[12:26:05] Finished 'scripts' after 3.43 s
+[BS] Access URLs:
+ --------------------------------------
+       Local: http://localhost:3002
+    External: http://192.168.42.60:3002
+ --------------------------------------
+          UI: http://localhost:3003
+ UI External: http://192.168.42.60:3003
+ --------------------------------------
+[BS] Serving files from: src
+[BS] 6 files changed (base.css, contacts.css, fonts.css, libs.css, main.css, news.css)
+[12:26:06] Finished 'sass' after 4.48 s
+[12:26:06] Starting 'css-libs'...
+[12:26:08] Finished 'css-libs' after 2.05 s
+[12:26:08] Starting 'watch'...
+[12:26:08] Finished 'watch' after 33 ms
+[12:28:07] Starting 'sass'...
+[BS] 6 files changed (base.css, contacts.css, fonts.css, libs.css, main.css, news.css)
+[12:28:08] Finished 'sass' after 1.23 s
+[12:29:06] Starting 'sass'...
+[BS] 6 files changed (base.css, contacts.css, fonts.css, libs.css, main.css, news.css)
+[12:29:06] Finished 'sass' after 762 ms
+[12:30:00] Starting 'sass'...
+
+events.js:154
+      throw er; // Unhandled 'error' event
+      ^
+Error: src/sass/base.sass
+Error: Invalid CSS after "...ive-color:green": expected 1 selector or at-rule, was "{}"
+        on line 5 of stdin
+>> $active-color:green {}
+   -------------------^
+
+    at options.error (/home/obodov-vladimir/node_modules/node-sass/lib/index.js:277:32)
+
+ 

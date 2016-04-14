@@ -1,0 +1,106 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 1050px) {
+ 	#first-a-mnu{
+		padding-left: 0;
+	}
+	#last-a-mnu{
+ 		padding-right: 0;
+ 	}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 500px) {
+	.top-wrapper  .top-centered{
+		width: 100%;
+		text-align: center;
+	}
+	.top-wrapper  .top-centered .top-text {
+			margin-left: 0px;
+			text-align: center;
+		}
+	.top-wrapper  .top-centered .top-text h1{
+		display: block;
+	}
+	.top-wrapper  .top-centered .top-text img{
+		display: block;
+		margin-top: 30px;
+	}
+	.icon-container{
+		width: 100%;
+		text-align: center;
+	}
+	.icon-container ul{
+		margin: 0;
+		padding: 0;
+		margin-bottom: 10px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 985px) {
+
+
+.container .row:first-child .col-md-12 {
+	display: none ;
+}
+#main-button {
+	display: block;
+}
+.container .row:nth-child(2) .col-md-12 {
+	margin-top: 100px;
+}
+.container{
+	position: relative;
+}
+.container .row:nth-child(2){
+	position: absolute;
+	bottom: 50%;
+}
+.container .row:nth-child(2) .col-md-12{
+	margin-top: 0;
+}
+
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 400px) {
+
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

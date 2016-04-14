@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Галерея</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+	<link rel="stylesheet" href="libs/icheck/square/green.css">
+	<link rel="stylesheet" href="libs/ihover/src/ihover.css">
+	<link rel="stylesheet" href="css/libs.css">
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/gallery.css">
+	<link rel="stylesheet" href="css/base_media.css">
+	<link rel="stylesheet" href="css/gallery_media.css">
+
+</head>
+<body>
+	<!--Page Loader-->
+	<div class="loader">
+		<div class="loader_inner"></div>
+	</div>
+	<!--Page Loader end-->
+	<!--Background + darkOpacity-->
+	<div class="background">
+		<div class="dark-wrap"></div>
+	</div>
+	<!--Background + darkOpacity end-->
+	
+	<!--Header-->
+	<header class="base-header">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<nav>
+						<ul>
+							<li>
+								<div class="logo-wrap">
+									<a href="index.html"> <img src="img/logo-white.png" alt="" class="logo"></a>
+								</div>
+							</li>
+							<li>
+								<div id=first-a-mnu class="a-wrap"><a href="news.html">новини</a></div>
+							</li>
+							<li>
+								<div class="a-wrap active"><a href="gallery.html">галерея</a></div>
+							</li>
+							<li>
+								<div class="a-wrap"><a href="#">митцi</a></div>
+							</li>
+							<li>
+								<div class="a-wrap"><a href="#">про нас</a></div>
+							</li>
+							<li>
+								<div id=last-a-mnu class="a-wrap"><a href="contacts.html">контакты</a></div>
+							</li>
+						</ul>
+						<!--Sandwich Button (adaptive appearance)-->
+						<button class="toggle_mnu">
+							<span class='sandwich'>
+								<span class='sw-topper'></span>
+								<span class='sw-bottom'></span>
+								<span class='sw-footer'></span>
+							</span>
+						</button>
+						<!--Sandwich Button (adaptive appearance) end-->
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<main class="main-gallery main-block">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-3">
+					<div id="filter-p" class="filter-panel">
+						<form class="form-inline" role="form">
+							<div class="form-group">
+								<div class="filter-type">
+									<h2>Type of art </h2>
+									<div id=check-1 class="check-hider check-active">
+										<div class="checkbox">							
+											<input type="checkbox">
+											<label for="">Painting</label>
+										</div>
+										<div class="checkbox">							
+											<input type="checkbox">
+											<label for="">Portret</label>
+										</div>
+										<div class="checkbox">							
+											<input type="checkbox">
+											<label>Graphic</label>
+										</div>
+									</div>
+								</div>
+								<div class="filter-style">
+									<h2>Art style </h2>
+									<div id=check-2 class="check-hider">
+										<div class="checkbox">							
+											<input type="checkbox">
+											<label for="">Painting</label>
+										</div>
+										<div class="checkbox">							
+											<input type="checkbox">
+											<label for="">Portret</label>
+										</div>
+										<div class="checkbox">							
+											<input type="checkbox">
+											<label>Graphic</label>
+										</div>
+									</div>
+								</div>
+								</div>
+
+						</form>
+					</div>
+				</div>
+				<div class="col-sm-9">
+					<div id=rowid class="row">
+						<div id=width-identify class="col-sm-3 col-sm-offset-1 col-xs-offset-1 col-xs-5">
+							<div class="img-wrap ih-item square colored effect6 from_top_and_bottom">
+								<a href="#">
+									<div class="img"><img src="img/gallery.jpg" class="img-responsive"  alt=""></div>
+									<div class="info">
+										<h3>Title</h3>
+										<p>Далеко-далеко за словесными горами в стране</p>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div  class="col-sm-3 col-sm-offset-1 col-xs-offset-1  col-xs-5">
+							<div id="img-wrap-1" class="img-wrap ih-item square colored effect6 from_top_and_bottom">
+								<a href="#">
+									<div class="img"><img src="img/gallery.jpg" class="img-responsive"  alt=""></div>
+									<div class="info">
+										<h3>Title</h3>
+										<p>Далеко-далеко за словесными горами в стране</p>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div  class="col-sm-3 col-sm-offset-1 col-xs-offset-1  col-xs-5">
+							<div class="img-wrap ih-item square colored effect6 from_top_and_bottom">
+								<a href="#">
+									<div class="img"><img src="img/gallery.jpg" class="img-responsive"  alt=""></div>
+									<div class="info">
+										<h3>Title</h3>
+										<p>Далеко-далеко за словесными горами в стране</p>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div  class="col-sm-3 col-sm-offset-1 col-xs-offset-1  col-xs-5">
+							<div id="img-wrap-1" class="img-wrap ih-item square colored effect6 from_top_and_bottom">
+								<a href="#">
+									<div class="img"><img src="img/gallery.jpg" class="img-responsive"  alt=""></div>
+									<div class="info">
+										<h3>Title</h3>
+										<p>Далеко-далеко за словесными горами в стране</p>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div  class="col-sm-3 col-sm-offset-1 col-xs-offset-1  col-xs-5">
+							<div id="img-wrap-1" class="img-wrap ih-item square colored effect6 from_top_and_bottom">
+								<a href="#">
+									<div class="img"><img src="img/gallery.jpg" class="img-responsive"  alt=""></div>
+									<div class="info">
+										<h3>Title</h3>
+										<p>Далеко-далеко за словесными горами в стране</p>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div  class="col-sm-3 col-sm-offset-1 col-xs-offset-1  col-xs-5">
+							<div id="img-wrap-1" class="img-wrap ih-item square colored effect6 from_top_and_bottom">
+								<a href="#">
+									<div class="img"><img src="img/gallery.jpg" class="img-responsive"  alt=""></div>
+									<div class="info">
+										<h3>Title</h3>
+										<p>Далеко-далеко за словесными горами в стране</p>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div  class="col-sm-3 col-sm-offset-1 col-xs-offset-1  col-xs-5">
+							<div id="img-wrap-1" class="img-wrap ih-item square colored effect6 from_top_and_bottom">
+								<a href="#">
+									<div class="img"><img src="img/gallery.jpg" class="img-responsive"  alt=""></div>
+									<div class="info">
+										<h3>Title</h3>
+										<p>Далеко-далеко за словесными горами в стране</p>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div  class="col-sm-3 col-sm-offset-1 col-xs-offset-1  col-xs-5">
+							<div id="img-wrap-1" class="img-wrap ih-item square colored effect6 from_top_and_bottom">
+								<a href="#">
+									<div class="img"><img src="img/gallery.jpg" class="img-responsive"  alt=""></div>
+									<div class="info">
+										<h3>Title</h3>
+										<p>Далеко-далеко за словесными горами в стране</p>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div  class="col-sm-3 col-sm-offset-1 col-xs-offset-1  col-xs-5">
+							<div id="img-wrap-1" class="img-wrap ih-item square colored effect6 from_top_and_bottom">
+								<a href="#">
+									<div class="img"><img src="img/gallery.jpg" class="img-responsive"  alt=""></div>
+									<div class="info">
+										<h3>Title</h3>
+										<p>Далеко-далеко за словесными горами в стране</p>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div  class="col-sm-3 col-sm-offset-1 col-xs-offset-1  col-xs-5">
+							<div id="img-wrap-1" class="img-wrap ih-item square colored effect6 from_top_and_bottom">
+								<a href="#">
+									<div class="img"><img src="img/gallery.jpg" class="img-responsive"  alt=""></div>
+									<div class="info">
+										<h3>Title</h3>
+										<p>Далеко-далеко за словесными горами в стране</p>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div  class="col-sm-3 col-sm-offset-1 col-xs-offset-1  col-xs-5">
+							<div id="img-wrap-1" class="img-wrap ih-item square colored effect6 from_top_and_bottom">
+								<a href="#">
+									<div class="img"><img src="img/gallery.jpg" class="img-responsive"  alt=""></div>
+									<div class="info">
+										<h3>Title</h3>
+										<p>Далеко-далеко за словесными горами в стране</p>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div  class="col-sm-3 col-sm-offset-1 col-xs-offset-1  col-xs-5">
+							<div id="img-wrap-1" class="img-wrap ih-item square colored effect6 from_top_and_bottom">
+								<a href="#">
+									<div class="img"><img src="img/gallery.jpg" class="img-responsive"  alt=""></div>
+									<div class="info">
+										<h3>Title</h3>
+										<p>Далеко-далеко за словесными горами в стране</p>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div  class="col-sm-3 col-sm-offset-1 col-xs-offset-1  col-xs-5">
+							<div id="img-wrap-1" class="img-wrap ih-item square colored effect6 from_top_and_bottom">
+								<a href="#">
+									<div class="img"><img src="img/gallery.jpg" class="img-responsive"  alt=""></div>
+									<div class="info">
+										<h3>Title</h3>
+										<p>Далеко-далеко за словесными горами в стране</p>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div  class="col-sm-3 col-sm-offset-1 col-xs-offset-1  col-xs-5">
+							<div id="img-wrap-1" class="img-wrap ih-item square colored effect6 from_top_and_bottom">
+								<a href="#">
+									<div class="img"><img src="img/gallery.jpg" class="img-responsive"  alt=""></div>
+									<div class="info">
+										<h3>Title</h3>
+										<p>Далеко-далеко за словесными горами в стране</p>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div  class="col-sm-3 col-sm-offset-1 col-xs-offset-1  col-xs-5">
+							<div id="img-wrap-1" class="img-wrap ih-item square colored effect6 from_top_and_bottom">
+								<a href="#">
+									<div class="img"><img src="img/gallery.jpg" class="img-responsive"  alt=""></div>
+									<div class="info">
+										<h3>Title</h3>
+										<p>Далеко-далеко за словесными горами в стране</p>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div  class="col-sm-3 col-sm-offset-1 col-xs-offset-1  col-xs-5">
+							<div id="img-wrap-1" class="img-wrap ih-item square colored effect6 from_top_and_bottom">
+								<a href="#">
+									<div class="img"><img src="img/gallery.jpg" class="img-responsive"  alt=""></div>
+									<div class="info">
+										<h3>Title</h3>
+										<p>Далеко-далеко за словесными горами в стране</p>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div  class="col-sm-3 col-sm-offset-1 col-xs-offset-1  col-xs-5">
+							<div id="img-wrap-1" class="img-wrap ih-item square colored effect6 from_top_and_bottom">
+								<a href="#">
+									<div class="img"><img src="img/gallery.jpg" class="img-responsive"  alt=""></div>
+									<div class="info">
+										<h3>Title</h3>
+										<p>Далеко-далеко за словесными горами в стране</p>
+									</div>
+								</a>
+							</div>
+						</div>
+						
+						
+						
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<!--
+	<div id="filter-p" class="filter-panel">
+		<form role="form">
+			<div class="form-group">
+				<div class="filter-type">
+					<h2>Type of art </h2>
+					<div id=check-1 class="check-hider check-active">
+						<div class="checkbox">							
+							<input type="checkbox">
+							<label for="">Painting</label>
+						</div>
+						<div class="checkbox">							
+							<input type="checkbox">
+							<label for="">Portret</label>
+						</div>
+						<div class="checkbox">							
+							<input type="checkbox">
+							<label>Graphic</label>
+						</div>
+					</div>
+				</div>
+				<div class="filter-style">
+					<h2>Art style </h2>
+					<div id=check-2 class="check-hider">
+						<div class="checkbox">							
+							<input type="checkbox">
+							<label for="">Painting</label>
+						</div>
+						<div class="checkbox">							
+							<input type="checkbox">
+							<label for="">Portret</label>
+						</div>
+						<div class="checkbox">							
+							<input type="checkbox">
+							<label>Graphic</label>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</form>
+	</div>
+	<!-- Hide menu-->
+	<div class="top_mnu">
+		<ul>
+			<li><a href="index.html">головна</a></li>
+			<li><a href="#">галерея творiв</a></li>
+			<li><a href="#">новини</a></li>
+			<li><a href="#">вiдомi митцi</a></li>
+			<li><a href="#">соцiальна дiяльнiсть</a></li>
+		</ul>
+	</div>
+	<!-- Hide menu end-->
+	<!-- Footer-->
+	<footer class="base-footer">Footer: TBD</footer>
+	<!-- Footer end-->
+
+	<script src="js/libs.min.js"></script>
+		<script src="js/base_basic.js"></script>
+	<script src="js/gallery.js"></script>
+
+</body>
+</html>

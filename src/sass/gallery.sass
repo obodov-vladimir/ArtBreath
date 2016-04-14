@@ -1,0 +1,62 @@
+@import "base.sass"
+
+.container
+	margin: 0
+	padding: 0
+	width: 100%
+	.row
+		width: 100%
+	.col-sm-9
+		.col-sm-3
+			padding: 0
+			//position: relative	
+			margin-bottom: 45px		
+			.img-wrap
+				width: 100%
+				padding: 5px	
+				border: 1px solid white	
+				overflow: hidden
+				
+
+.filter-panel
+	background: none
+	//background: rgba(0,0,0,.7)
+	position: fixed	
+	top: 150px
+	left: 50px	
+	padding: 10px
+	h2,
+	label
+		color: white
+		font-size: 20px
+	h2
+		display: block
+		border: 3px solid white
+		border-radius: 30%
+		text-align: center
+		font-size: 25px
+		letter-spacing: 3px
+		font-weight: normal
+		cursor: pointer
+		&:hover
+			color: $active-color
+			border-color: $active-color	
+			background-color: rgba(0,0,0,.4)	
+	label
+		letter-spacing: 4px		
+		&:hover
+			color: $active-color
+
+
+	.check-hider
+		height: 0
+		overflow: hidden
+		transition-property: height
+		transition: .5s ease
+	.check-active
+		height: 100px
+
+
+				
+
+
